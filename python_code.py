@@ -28,7 +28,7 @@
 
   <meta name="viewport" content="width=device-width">
   
-  <title>Applied-Data-Science-Capstone/README.md at master · MkTej/Applied-Data-Science-Capstone</title>
+  <title>Applied-Data-Science-Capstone/python_code.py at master · MkTej/Applied-Data-Science-Capstone</title>
     <meta name="description" content="Applied Data Science Capstone of IBM Course on Coursera - MkTej/Applied-Data-Science-Capstone">
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
@@ -39,10 +39,10 @@
     <meta property="og:image" content="https://avatars3.githubusercontent.com/u/58900107?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="MkTej/Applied-Data-Science-Capstone" /><meta property="og:url" content="https://github.com/MkTej/Applied-Data-Science-Capstone" /><meta property="og:description" content="Applied Data Science Capstone of IBM Course on Coursera - MkTej/Applied-Data-Science-Capstone" />
 
   <link rel="assets" href="https://github.githubassets.com/">
-    <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6NTQ5MTEwMzAzOjk5MWNjZDZlZDUxN2JhZTNkOTQ0MTYxYzExMzY3Y2NhNGY4MDdlYTRjYTdjYTJiNGM5N2MzYzM4ZWVjZTBhYWU=--adffa181ca19c0982603f339404a007932f9fad8">
+    <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6NTQ5MTEwMzAzOjQ5MDNhMDM5NWViMWFmYjUzOTA5Y2UxZjFlYjY5YmRjZmRhNmQ1MGQ2Mjg0YzlhMWRiNGIyNzQ4ZWVhNzNkMTc=--cc360d0cec27233c599a3867cdf805b76c9ab09f">
   <link rel="sudo-modal" href="/sessions/sudo_modal">
 
-  <meta name="request-id" content="CD75:05E7:2885F27:360BC9F:5EEF3945" data-pjax-transient="true" /><meta name="html-safe-nonce" content="240605e95a87a5c818f1d9357dc90b779abd753c" data-pjax-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS9Na1Rlai9BcHBsaWVkLURhdGEtU2NpZW5jZS1DYXBzdG9uZS90cmVlL21hc3Rlci9DYXBzdG9uZSUyMC0lMjBUaGUlMjBCYXR0bGUlMjBvZiUyME5laWdoYm9yaG9vZHMlMjAtJTIwUGFydCUyMDEiLCJyZXF1ZXN0X2lkIjoiQ0Q3NTowNUU3OjI4ODVGMjc6MzYwQkM5Rjo1RUVGMzk0NSIsInZpc2l0b3JfaWQiOiI2NDQ0OTk0OTc5Mjc0ODM5MzkwIiwicmVnaW9uX2VkZ2UiOiJhcC1zb3V0aC0xIiwicmVnaW9uX3JlbmRlciI6ImlhZCJ9" data-pjax-transient="true" /><meta name="visitor-hmac" content="6f5ed68f7615c6d72bd9e31e2500589fb9df3f3bcb72737be15fa47842975702" data-pjax-transient="true" />
+  <meta name="request-id" content="CD95:3364:2A9C592:38A77F5:5EEF3989" data-pjax-transient="true" /><meta name="html-safe-nonce" content="240605e95a87a5c818f1d9357dc90b779abd753c" data-pjax-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS9Na1Rlai9BcHBsaWVkLURhdGEtU2NpZW5jZS1DYXBzdG9uZT9maWxlcz0xIiwicmVxdWVzdF9pZCI6IkNEOTU6MzM2NDoyQTlDNTkyOjM4QTc3RjU6NUVFRjM5ODkiLCJ2aXNpdG9yX2lkIjoiNjQ0NDk5NDk3OTI3NDgzOTM5MCIsInJlZ2lvbl9lZGdlIjoiYXAtc291dGgtMSIsInJlZ2lvbl9yZW5kZXIiOiJpYWQifQ==" data-pjax-transient="true" /><meta name="visitor-hmac" content="9565b869d2cadf118c05f8ff4d42727ff2c924a87af46b5bfa6fc249b61f38ff" data-pjax-transient="true" />
 
 
 
@@ -81,7 +81,7 @@
 
       <meta name="expected-hostname" content="github.com">
 
-      <meta name="js-proxy-site-detection-payload" content="NzEwZmViYjg4OThhNWEyZjJmY2JkYTMzYTc0NGNmMDJmZTU3MTNlNmRjNDM0ZGZmMWJlNTZjZWJjYzRmZmE4YXx7InJlbW90ZV9hZGRyZXNzIjoiNDkuMzUuNTAuMjAwIiwicmVxdWVzdF9pZCI6IkNENzU6MDVFNzoyODg1RjI3OjM2MEJDOUY6NUVFRjM5NDUiLCJ0aW1lc3RhbXAiOjE1OTI3MzYwNjksImhvc3QiOiJnaXRodWIuY29tIn0=">
+      <meta name="js-proxy-site-detection-payload" content="Y2ZiY2QwZGEzOTEwYmU2ZGIxZWRmZjdhNWI5ZWU0MWUxZDY2ZTZiOTQ5ZTg5MTliYTIyMDExNTFmMjliN2I2Y3x7InJlbW90ZV9hZGRyZXNzIjoiNDkuMzUuNTAuMjAwIiwicmVxdWVzdF9pZCI6IkNEOTU6MzM2NDoyQTlDNTkyOjM4QTc3RjU6NUVFRjM5ODkiLCJ0aW1lc3RhbXAiOjE1OTI3MzYxMzcsImhvc3QiOiJnaXRodWIuY29tIn0=">
 
     <meta name="enabled-features" content="MARKETPLACE_PENDING_INSTALLATIONS,PAGE_STALE_CHECK,PRIMER_NEXT">
 
@@ -95,7 +95,7 @@
   <meta name="octolytics-dimension-user_id" content="58900107" /><meta name="octolytics-dimension-user_login" content="MkTej" /><meta name="octolytics-dimension-repository_id" content="228142454" /><meta name="octolytics-dimension-repository_nwo" content="MkTej/Applied-Data-Science-Capstone" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="228142454" /><meta name="octolytics-dimension-repository_network_root_nwo" content="MkTej/Applied-Data-Science-Capstone" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
 
 
-    <link rel="canonical" href="https://github.com/MkTej/Applied-Data-Science-Capstone/blob/master/Capstone%20-%20The%20Battle%20of%20Neighborhoods%20-%20Part%201/README.md" data-pjax-transient>
+    <link rel="canonical" href="https://github.com/MkTej/Applied-Data-Science-Capstone/blob/master/python_code.py" data-pjax-transient>
 
 
   <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
@@ -169,7 +169,7 @@
           spellcheck="false"
           autocomplete="off"
           >
-          <input type="hidden" value="LwDQcrLQOJaBj4zB8Bqe6P/sEvTsgiqkkNnLPets38+pF54TIB0adqwXJvysQ/6pHsTvSANqKhcNuMYe3WInEw==" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" />
+          <input type="hidden" value="19a4+g5tMxU4LVy6Jo/nJ1drLEcQJapRCKBA0fPINKdRwfabnKAR9RW19od61odmtkPR+//NquKVwU3yxcbMew==" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" />
           <input type="hidden" class="js-site-search-type-field" name="type" >
             <img src="https://github.githubassets.com/images/search-key-slash.svg" alt="" class="mr-2 header-search-key-slash">
 
@@ -320,7 +320,7 @@
       <img class="avatar avatar-user" src="https://avatars2.githubusercontent.com/u/67207497?s=40&amp;v=4" width="20" height="20" alt="@PayalNinawe" />
       PayalNinawe
 </a>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="dB3QQi+G7S/nFt2iDZm8/yT9fxAAVdNM7ZQCm4P0gwdneN92+PeIFC9KZCSGR5YQhISDnFnYcm641wwkJhx8eg==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="uJQ9Ti7kCs9b19KqPJRhYXsMEXB+Lwc5ae2Nl6IsDmyr8TJ6+ZVv9JOLayy3SkuO23Xt/Ceiphs8roMoB8TxEQ==" />
       <button type="submit" class="Header-link mr-0 mr-lg-3 py-2 py-lg-3 border-top border-lg-top-0 border-white-fade-15 d-lg-none btn-link d-block width-full text-left" data-ga-click="Header, sign out, icon:logout" style="padding-left: 2px;">
         <svg class="octicon octicon-sign-out v-align-middle" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 2.75C2 1.784 2.784 1 3.75 1h2.5a.75.75 0 010 1.5h-2.5a.25.25 0 00-.25.25v10.5c0 .138.112.25.25.25h2.5a.75.75 0 010 1.5h-2.5A1.75 1.75 0 012 13.25V2.75zm10.44 4.5H6.75a.75.75 0 000 1.5h5.69l-1.97 1.97a.75.75 0 101.06 1.06l3.25-3.25a.75.75 0 000-1.06l-3.25-3.25a.75.75 0 10-1.06 1.06l1.97 1.97z"></path></svg>
         Sign out
@@ -415,7 +415,7 @@
   data-team-hovercards-enabled>
   <details class="js-user-status-details details-reset details-overlay details-overlay-dark">
     <summary class="btn-link btn-block link-gray no-underline js-toggle-user-status-edit toggle-user-status-edit "
-      role="menuitem" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.click&quot;,&quot;payload&quot;:{&quot;profile_user_id&quot;:58900107,&quot;target&quot;:&quot;EDIT_USER_STATUS&quot;,&quot;user_id&quot;:67207497,&quot;originating_url&quot;:&quot;https://github.com/MkTej/Applied-Data-Science-Capstone/blob/master/Capstone%20-%20The%20Battle%20of%20Neighborhoods%20-%20Part%201/README.md&quot;}}" data-hydro-click-hmac="7577ec8687d12b0cc7eccb032670eca5abef517bc05a8d715c03728ee730e7f7">
+      role="menuitem" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.click&quot;,&quot;payload&quot;:{&quot;profile_user_id&quot;:58900107,&quot;target&quot;:&quot;EDIT_USER_STATUS&quot;,&quot;user_id&quot;:67207497,&quot;originating_url&quot;:&quot;https://github.com/MkTej/Applied-Data-Science-Capstone/blob/master/python_code.py&quot;}}" data-hydro-click-hmac="1ff6ab314ed89fde6efd5ee438786b6b016d49f2ab6b9ba9181df557db4a1ee4">
       <div class="d-flex flex-items-center flex-items-stretch">
         <div class="f6 lh-condensed user-status-header d-flex user-status-emoji-only-header circle">
           <div class="user-status-emoji-container flex-shrink-0 mr-2 d-flex flex-items-center flex-justify-center lh-condensed-ultra v-align-bottom">
@@ -433,7 +433,7 @@
       </div>
     </summary>
     <details-dialog class="details-dialog rounded-1 anim-fade-in fast Box Box--overlay" role="dialog" tabindex="-1">
-      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="position-relative flex-auto js-user-status-form" action="/users/status?circle=0&amp;compact=1&amp;link_mentions=0&amp;truncate=1" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="melDEXXMCW+hV1oWDbEcvRJK5VvSqqOCTtr0bE/KS3BLKO9aGQcs/bX5H7xm/FrkLF6ahjX9/kKreSwTwmlCNg==" />
+      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="position-relative flex-auto js-user-status-form" action="/users/status?circle=0&amp;compact=1&amp;link_mentions=0&amp;truncate=1" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="8XD5jbR3wYEWB3KJ7+ZMb8qUL4aWz399tFi+/i3OpYYjsVXG2LzkEwKpNyOEqwo29IBQW3GYIr1R+2aBoG2swA==" />
         <div class="Box-header bg-gray border-bottom p-3">
           <button class="Box-btn-octicon js-toggle-user-status-edit btn-octicon float-right" type="reset" aria-label="Close dialog" data-close-dialog>
             <svg class="octicon octicon-x" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path></svg>
@@ -551,17 +551,17 @@
       </li>
       <li class="dropdown-divider" role="none"></li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 30 minutes" value="2020-06-21T16:41:09+05:30">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 30 minutes" value="2020-06-21T16:42:17+05:30">
             in 30 minutes
           </button>
         </li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 1 hour" value="2020-06-21T17:11:09+05:30">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 1 hour" value="2020-06-21T17:12:17+05:30">
             in 1 hour
           </button>
         </li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 4 hours" value="2020-06-21T20:11:09+05:30">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 4 hours" value="2020-06-21T20:12:17+05:30">
             in 4 hours
           </button>
         </li>
@@ -597,22 +597,22 @@
       </div>
       <div role="none" class="dropdown-divider"></div>
 
-    <a role="menuitem" class="dropdown-item" href="/PayalNinawe" data-ga-click="Header, go to profile, text:your profile" data-hydro-click="{&quot;event_type&quot;:&quot;global_header.user_menu_dropdown.click&quot;,&quot;payload&quot;:{&quot;request_url&quot;:&quot;https://github.com/MkTej/Applied-Data-Science-Capstone/blob/master/Capstone%20-%20The%20Battle%20of%20Neighborhoods%20-%20Part%201/README.md&quot;,&quot;target&quot;:&quot;YOUR_PROFILE&quot;,&quot;originating_url&quot;:&quot;https://github.com/MkTej/Applied-Data-Science-Capstone/blob/master/Capstone%20-%20The%20Battle%20of%20Neighborhoods%20-%20Part%201/README.md&quot;,&quot;user_id&quot;:67207497}}" data-hydro-click-hmac="65b0547d5f09c78a4891316aba6f50c3109061504d29f20904ec8609461a8a8d" >Your profile</a>
+    <a role="menuitem" class="dropdown-item" href="/PayalNinawe" data-ga-click="Header, go to profile, text:your profile" data-hydro-click="{&quot;event_type&quot;:&quot;global_header.user_menu_dropdown.click&quot;,&quot;payload&quot;:{&quot;request_url&quot;:&quot;https://github.com/MkTej/Applied-Data-Science-Capstone/blob/master/python_code.py&quot;,&quot;target&quot;:&quot;YOUR_PROFILE&quot;,&quot;originating_url&quot;:&quot;https://github.com/MkTej/Applied-Data-Science-Capstone/blob/master/python_code.py&quot;,&quot;user_id&quot;:67207497}}" data-hydro-click-hmac="4c6a3613e104527378d228f15bdf23db71fcbd54f12199e50cca7fbab2b428d4" >Your profile</a>
 
-    <a role="menuitem" class="dropdown-item" href="/PayalNinawe?tab=repositories" data-ga-click="Header, go to repositories, text:your repositories" data-hydro-click="{&quot;event_type&quot;:&quot;global_header.user_menu_dropdown.click&quot;,&quot;payload&quot;:{&quot;request_url&quot;:&quot;https://github.com/MkTej/Applied-Data-Science-Capstone/blob/master/Capstone%20-%20The%20Battle%20of%20Neighborhoods%20-%20Part%201/README.md&quot;,&quot;target&quot;:&quot;YOUR_REPOSITORIES&quot;,&quot;originating_url&quot;:&quot;https://github.com/MkTej/Applied-Data-Science-Capstone/blob/master/Capstone%20-%20The%20Battle%20of%20Neighborhoods%20-%20Part%201/README.md&quot;,&quot;user_id&quot;:67207497}}" data-hydro-click-hmac="e568a65aa0d15f2f2535f930459abe3e112719b76c49923951554f95b4f65138" >Your repositories</a>
+    <a role="menuitem" class="dropdown-item" href="/PayalNinawe?tab=repositories" data-ga-click="Header, go to repositories, text:your repositories" data-hydro-click="{&quot;event_type&quot;:&quot;global_header.user_menu_dropdown.click&quot;,&quot;payload&quot;:{&quot;request_url&quot;:&quot;https://github.com/MkTej/Applied-Data-Science-Capstone/blob/master/python_code.py&quot;,&quot;target&quot;:&quot;YOUR_REPOSITORIES&quot;,&quot;originating_url&quot;:&quot;https://github.com/MkTej/Applied-Data-Science-Capstone/blob/master/python_code.py&quot;,&quot;user_id&quot;:67207497}}" data-hydro-click-hmac="0f3860ca9b63f33c415c1d18240fea7b046558ecd6843e142f64dfed7ff3a01d" >Your repositories</a>
 
 
-    <a role="menuitem" class="dropdown-item" href="/PayalNinawe?tab=projects" data-ga-click="Header, go to projects, text:your projects" data-hydro-click="{&quot;event_type&quot;:&quot;global_header.user_menu_dropdown.click&quot;,&quot;payload&quot;:{&quot;request_url&quot;:&quot;https://github.com/MkTej/Applied-Data-Science-Capstone/blob/master/Capstone%20-%20The%20Battle%20of%20Neighborhoods%20-%20Part%201/README.md&quot;,&quot;target&quot;:&quot;YOUR_PROJECTS&quot;,&quot;originating_url&quot;:&quot;https://github.com/MkTej/Applied-Data-Science-Capstone/blob/master/Capstone%20-%20The%20Battle%20of%20Neighborhoods%20-%20Part%201/README.md&quot;,&quot;user_id&quot;:67207497}}" data-hydro-click-hmac="5e7d3ae0f2f632c595800b84fcd4e185b369059e8a89a15dd325949cce483883" >Your projects</a>
+    <a role="menuitem" class="dropdown-item" href="/PayalNinawe?tab=projects" data-ga-click="Header, go to projects, text:your projects" data-hydro-click="{&quot;event_type&quot;:&quot;global_header.user_menu_dropdown.click&quot;,&quot;payload&quot;:{&quot;request_url&quot;:&quot;https://github.com/MkTej/Applied-Data-Science-Capstone/blob/master/python_code.py&quot;,&quot;target&quot;:&quot;YOUR_PROJECTS&quot;,&quot;originating_url&quot;:&quot;https://github.com/MkTej/Applied-Data-Science-Capstone/blob/master/python_code.py&quot;,&quot;user_id&quot;:67207497}}" data-hydro-click-hmac="c8f68d8c0002ba861a9e8026b633beeabc1c03ec5a2d5f3c14941c4f50ab96cb" >Your projects</a>
 
-    <a role="menuitem" class="dropdown-item" href="/PayalNinawe?tab=stars" data-ga-click="Header, go to starred repos, text:your stars" data-hydro-click="{&quot;event_type&quot;:&quot;global_header.user_menu_dropdown.click&quot;,&quot;payload&quot;:{&quot;request_url&quot;:&quot;https://github.com/MkTej/Applied-Data-Science-Capstone/blob/master/Capstone%20-%20The%20Battle%20of%20Neighborhoods%20-%20Part%201/README.md&quot;,&quot;target&quot;:&quot;YOUR_STARS&quot;,&quot;originating_url&quot;:&quot;https://github.com/MkTej/Applied-Data-Science-Capstone/blob/master/Capstone%20-%20The%20Battle%20of%20Neighborhoods%20-%20Part%201/README.md&quot;,&quot;user_id&quot;:67207497}}" data-hydro-click-hmac="8128beaecf7355b2f55aa9266636b2fcf20127541560a7550631f65760eebaf0" >Your stars</a>
-      <a role="menuitem" class="dropdown-item" href="https://gist.github.com/mine" data-ga-click="Header, your gists, text:your gists" data-hydro-click="{&quot;event_type&quot;:&quot;global_header.user_menu_dropdown.click&quot;,&quot;payload&quot;:{&quot;request_url&quot;:&quot;https://github.com/MkTej/Applied-Data-Science-Capstone/blob/master/Capstone%20-%20The%20Battle%20of%20Neighborhoods%20-%20Part%201/README.md&quot;,&quot;target&quot;:&quot;YOUR_GISTS&quot;,&quot;originating_url&quot;:&quot;https://github.com/MkTej/Applied-Data-Science-Capstone/blob/master/Capstone%20-%20The%20Battle%20of%20Neighborhoods%20-%20Part%201/README.md&quot;,&quot;user_id&quot;:67207497}}" data-hydro-click-hmac="41377a52a9ab21b2ca23a7e25d699375e75113e56824a3a4dc68a1f87f2617f9" >Your gists</a>
+    <a role="menuitem" class="dropdown-item" href="/PayalNinawe?tab=stars" data-ga-click="Header, go to starred repos, text:your stars" data-hydro-click="{&quot;event_type&quot;:&quot;global_header.user_menu_dropdown.click&quot;,&quot;payload&quot;:{&quot;request_url&quot;:&quot;https://github.com/MkTej/Applied-Data-Science-Capstone/blob/master/python_code.py&quot;,&quot;target&quot;:&quot;YOUR_STARS&quot;,&quot;originating_url&quot;:&quot;https://github.com/MkTej/Applied-Data-Science-Capstone/blob/master/python_code.py&quot;,&quot;user_id&quot;:67207497}}" data-hydro-click-hmac="4b40e3b8d0713050ef61f773b897a89e7b1e033854b428eac454db1ff3644a7e" >Your stars</a>
+      <a role="menuitem" class="dropdown-item" href="https://gist.github.com/mine" data-ga-click="Header, your gists, text:your gists" data-hydro-click="{&quot;event_type&quot;:&quot;global_header.user_menu_dropdown.click&quot;,&quot;payload&quot;:{&quot;request_url&quot;:&quot;https://github.com/MkTej/Applied-Data-Science-Capstone/blob/master/python_code.py&quot;,&quot;target&quot;:&quot;YOUR_GISTS&quot;,&quot;originating_url&quot;:&quot;https://github.com/MkTej/Applied-Data-Science-Capstone/blob/master/python_code.py&quot;,&quot;user_id&quot;:67207497}}" data-hydro-click-hmac="5d24065e065f37b9eb9c7ee9b6d0fda81d1feaa2e6d08957601272af7a93d10c" >Your gists</a>
 
 
 
 
 
     <div role="none" class="dropdown-divider"></div>
-      <a role="menuitem" class="dropdown-item" href="/settings/billing" data-ga-click="Header, go to billing, text:upgrade" data-hydro-click="{&quot;event_type&quot;:&quot;global_header.user_menu_dropdown.click&quot;,&quot;payload&quot;:{&quot;request_url&quot;:&quot;https://github.com/MkTej/Applied-Data-Science-Capstone/blob/master/Capstone%20-%20The%20Battle%20of%20Neighborhoods%20-%20Part%201/README.md&quot;,&quot;target&quot;:&quot;UPGRADE&quot;,&quot;originating_url&quot;:&quot;https://github.com/MkTej/Applied-Data-Science-Capstone/blob/master/Capstone%20-%20The%20Battle%20of%20Neighborhoods%20-%20Part%201/README.md&quot;,&quot;user_id&quot;:67207497}}" data-hydro-click-hmac="b3a202d970e6266545933ef104198259e064a04a313fbb2dd0b12dda42d2df92" >Upgrade</a>
+      <a role="menuitem" class="dropdown-item" href="/settings/billing" data-ga-click="Header, go to billing, text:upgrade" data-hydro-click="{&quot;event_type&quot;:&quot;global_header.user_menu_dropdown.click&quot;,&quot;payload&quot;:{&quot;request_url&quot;:&quot;https://github.com/MkTej/Applied-Data-Science-Capstone/blob/master/python_code.py&quot;,&quot;target&quot;:&quot;UPGRADE&quot;,&quot;originating_url&quot;:&quot;https://github.com/MkTej/Applied-Data-Science-Capstone/blob/master/python_code.py&quot;,&quot;user_id&quot;:67207497}}" data-hydro-click-hmac="93e6388a7ced264ded8e6b30ae074522dd7b915b901ec7186974fd7a4a0f24ad" >Upgrade</a>
       
 <div id="feature-enrollment-toggle" class="hide-sm hide-md feature-preview-details position-relative">
   <button
@@ -620,24 +620,24 @@
     class="dropdown-item btn-link"
     role="menuitem"
     data-feature-preview-trigger-url="/users/PayalNinawe/feature_previews"
-    data-feature-preview-close-details="{&quot;event_type&quot;:&quot;feature_preview.clicks.close_modal&quot;,&quot;payload&quot;:{&quot;originating_url&quot;:&quot;https://github.com/MkTej/Applied-Data-Science-Capstone/blob/master/Capstone%20-%20The%20Battle%20of%20Neighborhoods%20-%20Part%201/README.md&quot;,&quot;user_id&quot;:67207497}}"
-    data-feature-preview-close-hmac="43d14e31f1a531963d17c4b1b0a0a8040a44908801bf42b4534e935e9b188278"
-    data-hydro-click="{&quot;event_type&quot;:&quot;feature_preview.clicks.open_modal&quot;,&quot;payload&quot;:{&quot;link_location&quot;:&quot;user_dropdown&quot;,&quot;originating_url&quot;:&quot;https://github.com/MkTej/Applied-Data-Science-Capstone/blob/master/Capstone%20-%20The%20Battle%20of%20Neighborhoods%20-%20Part%201/README.md&quot;,&quot;user_id&quot;:67207497}}"
-    data-hydro-click-hmac="7ad9fe2e05ab03baec7f9fa54b46b640dd430fbd9f0107773c86951eca06abd1"
+    data-feature-preview-close-details="{&quot;event_type&quot;:&quot;feature_preview.clicks.close_modal&quot;,&quot;payload&quot;:{&quot;originating_url&quot;:&quot;https://github.com/MkTej/Applied-Data-Science-Capstone/blob/master/python_code.py&quot;,&quot;user_id&quot;:67207497}}"
+    data-feature-preview-close-hmac="55cdf710c2adcf563e6066e439ddb6581268bb7bc88efe149e89c64a33943ab8"
+    data-hydro-click="{&quot;event_type&quot;:&quot;feature_preview.clicks.open_modal&quot;,&quot;payload&quot;:{&quot;link_location&quot;:&quot;user_dropdown&quot;,&quot;originating_url&quot;:&quot;https://github.com/MkTej/Applied-Data-Science-Capstone/blob/master/python_code.py&quot;,&quot;user_id&quot;:67207497}}"
+    data-hydro-click-hmac="2be05b89b94bd57a1534e4d21287a3bb2c9662073eef16bf4f22ff9d5f65af58"
   >
     Feature preview
   </button>
     <span class="feature-preview-indicator js-feature-preview-indicator" hidden></span>
 </div>
 
-    <a role="menuitem" class="dropdown-item" href="https://help.github.com" data-ga-click="Header, go to help, text:help" data-hydro-click="{&quot;event_type&quot;:&quot;global_header.user_menu_dropdown.click&quot;,&quot;payload&quot;:{&quot;request_url&quot;:&quot;https://github.com/MkTej/Applied-Data-Science-Capstone/blob/master/Capstone%20-%20The%20Battle%20of%20Neighborhoods%20-%20Part%201/README.md&quot;,&quot;target&quot;:&quot;HELP&quot;,&quot;originating_url&quot;:&quot;https://github.com/MkTej/Applied-Data-Science-Capstone/blob/master/Capstone%20-%20The%20Battle%20of%20Neighborhoods%20-%20Part%201/README.md&quot;,&quot;user_id&quot;:67207497}}" data-hydro-click-hmac="49d9af1a2d721bb05076360d80bc366ff5e458b2226cdfc67c4773c83c93f7dc" >Help</a>
-    <a role="menuitem" class="dropdown-item" href="/settings/profile" data-ga-click="Header, go to settings, icon:settings" data-hydro-click="{&quot;event_type&quot;:&quot;global_header.user_menu_dropdown.click&quot;,&quot;payload&quot;:{&quot;request_url&quot;:&quot;https://github.com/MkTej/Applied-Data-Science-Capstone/blob/master/Capstone%20-%20The%20Battle%20of%20Neighborhoods%20-%20Part%201/README.md&quot;,&quot;target&quot;:&quot;SETTINGS&quot;,&quot;originating_url&quot;:&quot;https://github.com/MkTej/Applied-Data-Science-Capstone/blob/master/Capstone%20-%20The%20Battle%20of%20Neighborhoods%20-%20Part%201/README.md&quot;,&quot;user_id&quot;:67207497}}" data-hydro-click-hmac="e5874b390579efe64c2929f90514aff4b4516d266f124bb3e57cd2e9f625fd99" >Settings</a>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="5utvBQMjbgIF/qDLgESEsRIyeN51L1bDrQ2sLFE8vBn1jmAx1FILOc2iGU0Lmq5eskuEUiyi9+H4TqKT9NRDZA==" />
+    <a role="menuitem" class="dropdown-item" href="https://help.github.com" data-ga-click="Header, go to help, text:help" data-hydro-click="{&quot;event_type&quot;:&quot;global_header.user_menu_dropdown.click&quot;,&quot;payload&quot;:{&quot;request_url&quot;:&quot;https://github.com/MkTej/Applied-Data-Science-Capstone/blob/master/python_code.py&quot;,&quot;target&quot;:&quot;HELP&quot;,&quot;originating_url&quot;:&quot;https://github.com/MkTej/Applied-Data-Science-Capstone/blob/master/python_code.py&quot;,&quot;user_id&quot;:67207497}}" data-hydro-click-hmac="0916395583f863fd72ce9101fa1bf7cd9fefd31d594f12bc837369503230b773" >Help</a>
+    <a role="menuitem" class="dropdown-item" href="/settings/profile" data-ga-click="Header, go to settings, icon:settings" data-hydro-click="{&quot;event_type&quot;:&quot;global_header.user_menu_dropdown.click&quot;,&quot;payload&quot;:{&quot;request_url&quot;:&quot;https://github.com/MkTej/Applied-Data-Science-Capstone/blob/master/python_code.py&quot;,&quot;target&quot;:&quot;SETTINGS&quot;,&quot;originating_url&quot;:&quot;https://github.com/MkTej/Applied-Data-Science-Capstone/blob/master/python_code.py&quot;,&quot;user_id&quot;:67207497}}" data-hydro-click-hmac="7c14f114634d5d83d2a438089c0f82b1804575895a953bcb55bb60259eb78c7a" >Settings</a>
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="Ra+t4ZOARwy69ybGnU4Z+lWGuhcBxNNKbvAQBVEShnlWyqLVRPEiN3Krn0AWkDMV9f9Gm1hJcmg7sx669Pp5BA==" />
       
-      <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout" data-hydro-click="{&quot;event_type&quot;:&quot;global_header.user_menu_dropdown.click&quot;,&quot;payload&quot;:{&quot;request_url&quot;:&quot;https://github.com/MkTej/Applied-Data-Science-Capstone/blob/master/Capstone%20-%20The%20Battle%20of%20Neighborhoods%20-%20Part%201/README.md&quot;,&quot;target&quot;:&quot;SIGN_OUT&quot;,&quot;originating_url&quot;:&quot;https://github.com/MkTej/Applied-Data-Science-Capstone/blob/master/Capstone%20-%20The%20Battle%20of%20Neighborhoods%20-%20Part%201/README.md&quot;,&quot;user_id&quot;:67207497}}" data-hydro-click-hmac="61880396419334da6d6a465a94f1d37207138598ea04ffd0d0b499ddc7f3e50c"  role="menuitem">
+      <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout" data-hydro-click="{&quot;event_type&quot;:&quot;global_header.user_menu_dropdown.click&quot;,&quot;payload&quot;:{&quot;request_url&quot;:&quot;https://github.com/MkTej/Applied-Data-Science-Capstone/blob/master/python_code.py&quot;,&quot;target&quot;:&quot;SIGN_OUT&quot;,&quot;originating_url&quot;:&quot;https://github.com/MkTej/Applied-Data-Science-Capstone/blob/master/python_code.py&quot;,&quot;user_id&quot;:67207497}}" data-hydro-click-hmac="47c9873b666d5fa35f129d42e668cf84422f5dd048b97a9763893dbf31357718"  role="menuitem">
         Sign out
       </button>
-      <input type="text" name="required_field_1483" hidden="hidden" class="form-control" /><input type="hidden" name="timestamp" value="1592736069893" class="form-control" /><input type="hidden" name="timestamp_secret" value="f200710dd54492878f2be1997dbaa3eb38c6ad10bf5d73602288549f6a0a757c" class="form-control" />
+      <input type="text" name="required_field_4c6a" hidden="hidden" class="form-control" /><input type="hidden" name="timestamp" value="1592736137870" class="form-control" /><input type="hidden" name="timestamp_secret" value="9f163038b9e80589d8162558b9a883d2847ca9ca39e5ad5b8b9cd69259d742d0" class="form-control" />
 </form>  </details-menu>
 </details>
 
@@ -727,10 +727,10 @@
   <li>
     
 
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-remote="true" class="js-social-form js-social-container clearfix" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="UpOKSa7ZYHYWCymLiW8oJlD72B87jbUqBSi1z+ymBykNklRfsIB1BlNQjU9WbVmMPIeD1Mh24+zLPPPJ+g/KFw==" />      <input type="hidden" name="repository_id" value="228142454">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-remote="true" class="js-social-form js-social-container clearfix" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="qUXeXi08H7vsv663R4gvqBFbhl34d67ysJ3NVCf7Ef/2RABIM2UKy6nkCnOYil4CfSfdlguM+DR+iYtSMVLcwQ==" />      <input type="hidden" name="repository_id" value="228142454">
 
       <details class="details-reset details-overlay select-menu float-left" >
-        <summary class="select-menu-button float-left btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:228142454,&quot;originating_url&quot;:&quot;https://github.com/MkTej/Applied-Data-Science-Capstone/blob/master/Capstone%20-%20The%20Battle%20of%20Neighborhoods%20-%20Part%201/README.md&quot;,&quot;user_id&quot;:67207497}}" data-hydro-click-hmac="af5d83cea64a38ee7f92302567820617381c5ba0d181d84f7014db6b59a2a1a8" data-ga-click="Repository, click Watch settings, action:blob#show">          <span data-menu-button>
+        <summary class="select-menu-button float-left btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:228142454,&quot;originating_url&quot;:&quot;https://github.com/MkTej/Applied-Data-Science-Capstone/blob/master/python_code.py&quot;,&quot;user_id&quot;:67207497}}" data-hydro-click-hmac="7c3abebddcb2a7415ae5c8ef2c2f7f61d769f6259ff5dbab36b6a89c0b75037d" data-ga-click="Repository, click Watch settings, action:blob#show">          <span data-menu-button>
               <svg class="octicon octicon-eye" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.679 7.932c.412-.621 1.242-1.75 2.366-2.717C5.175 4.242 6.527 3.5 8 3.5c1.473 0 2.824.742 3.955 1.715 1.124.967 1.954 2.096 2.366 2.717a.119.119 0 010 .136c-.412.621-1.242 1.75-2.366 2.717C10.825 11.758 9.473 12.5 8 12.5c-1.473 0-2.824-.742-3.955-1.715C2.92 9.818 2.09 8.69 1.679 8.068a.119.119 0 010-.136zM8 2c-1.981 0-3.67.992-4.933 2.078C1.797 5.169.88 6.423.43 7.1a1.619 1.619 0 000 1.798c.45.678 1.367 1.932 2.637 3.024C4.329 13.008 6.019 14 8 14c1.981 0 3.67-.992 4.933-2.078 1.27-1.091 2.187-2.345 2.637-3.023a1.619 1.619 0 000-1.798c-.45-.678-1.367-1.932-2.637-3.023C11.671 2.992 9.981 2 8 2zm0 8a2 2 0 100-4 2 2 0 000 4z"></path></svg>
               Watch
           </span>
@@ -809,9 +809,9 @@
 
   <li>
       <div class="js-toggler-container js-social-container starring-container ">
-    <form class="starred js-social-form" action="/MkTej/Applied-Data-Science-Capstone/unstar" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="H3ArkRq5qqW9DLCCUEQdoXFdf06F0UR5uQ5CMovqvbsuICxf/acUwdZOv1B3UfG8eud4Y9EKriKqOM+VwGOSsg==" />
+    <form class="starred js-social-form" action="/MkTej/Applied-Data-Science-Capstone/unstar" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="6pQ1UW2TyN4VsYoggvcNS7J6PxcEDS4/WW2JIAQLkrLbxDKfio12un7zhfKl4uFWucA4OlDWxGRKWwSHT4K9uw==" />
       <input type="hidden" name="context" value="repository"></input>
-      <button type="submit" class="btn btn-sm btn-with-count  js-toggler-target" aria-label="Unstar this repository" title="Unstar MkTej/Applied-Data-Science-Capstone" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:228142454,&quot;originating_url&quot;:&quot;https://github.com/MkTej/Applied-Data-Science-Capstone/blob/master/Capstone%20-%20The%20Battle%20of%20Neighborhoods%20-%20Part%201/README.md&quot;,&quot;user_id&quot;:67207497}}" data-hydro-click-hmac="8db126b7360668a42600f1c348883e578134c4192c5e2c52a61db05ea9661512" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg height="16" class="octicon octicon-star-fill" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"></path></svg>
+      <button type="submit" class="btn btn-sm btn-with-count  js-toggler-target" aria-label="Unstar this repository" title="Unstar MkTej/Applied-Data-Science-Capstone" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:228142454,&quot;originating_url&quot;:&quot;https://github.com/MkTej/Applied-Data-Science-Capstone/blob/master/python_code.py&quot;,&quot;user_id&quot;:67207497}}" data-hydro-click-hmac="79c2b75ce74a13cc025937fa019835848f88c91b3784a52173df2f90799c0735" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg height="16" class="octicon octicon-star-fill" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"></path></svg>
 
         Unstar
 </button>        <a class="social-count js-social-count" href="/MkTej/Applied-Data-Science-Capstone/stargazers"
@@ -819,9 +819,9 @@
            3
         </a>
 </form>
-    <form class="unstarred js-social-form" action="/MkTej/Applied-Data-Science-Capstone/star" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="V0OEhHP/EHG0La40b4Q/qIfGkQejQirEYc4Bxl6otFCRrI6DUHb+rzOF1PpUI/Rhgr12t8y3yv1xSrdtxD8W+g==" />
+    <form class="unstarred js-social-form" action="/MkTej/Applied-Data-Science-Capstone/star" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="N2kxDiDVGdvWb0X1ZAY6HglhTHdIGJkVz/NGlW8YX6zxhjsJA1z3BVHHPztfofHXDBqrxyfteSzfd/A+9Y/9Bg==" />
       <input type="hidden" name="context" value="repository"></input>
-      <button type="submit" class="btn btn-sm btn-with-count  js-toggler-target" aria-label="Unstar this repository" title="Star MkTej/Applied-Data-Science-Capstone" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:228142454,&quot;originating_url&quot;:&quot;https://github.com/MkTej/Applied-Data-Science-Capstone/blob/master/Capstone%20-%20The%20Battle%20of%20Neighborhoods%20-%20Part%201/README.md&quot;,&quot;user_id&quot;:67207497}}" data-hydro-click-hmac="f50ef7f5537954c03acf7dcfdb63bcc479df323b5c656b871ff24e39644d3e51" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg height="16" class="octicon octicon-star" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path></svg>
+      <button type="submit" class="btn btn-sm btn-with-count  js-toggler-target" aria-label="Unstar this repository" title="Star MkTej/Applied-Data-Science-Capstone" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:228142454,&quot;originating_url&quot;:&quot;https://github.com/MkTej/Applied-Data-Science-Capstone/blob/master/python_code.py&quot;,&quot;user_id&quot;:67207497}}" data-hydro-click-hmac="46a616bae931bd619557884d976c6bff67a74c694e1a981578535fbd585c67e2" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg height="16" class="octicon octicon-star" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path></svg>
 
         Star
 </button>        <a class="social-count js-social-count" href="/MkTej/Applied-Data-Science-Capstone/stargazers"
@@ -833,8 +833,8 @@
   </li>
 
   <li>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/MkTej/Applied-Data-Science-Capstone/fork" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="ufKeSkecw8kMfwVqwoooJZm5WWcnB5/PS3f640XKVSG9HKyBo6MFKp0Ac2zISI9yJcsrrIMyCpN/v/r28SAKfQ==" />
-            <button class="btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:228142454,&quot;originating_url&quot;:&quot;https://github.com/MkTej/Applied-Data-Science-Capstone/blob/master/Capstone%20-%20The%20Battle%20of%20Neighborhoods%20-%20Part%201/README.md&quot;,&quot;user_id&quot;:67207497}}" data-hydro-click-hmac="3f66419c5e2d8cdbad91b52dd7399f7d1df24153cec17449d2ed7a4e27fe6476" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" type="submit" title="Fork your own copy of MkTej/Applied-Data-Science-Capstone to your account" aria-label="Fork your own copy of MkTej/Applied-Data-Science-Capstone to your account">              <svg class="octicon octicon-repo-forked" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z"></path></svg>
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/MkTej/Applied-Data-Science-Capstone/fork" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="maxl9s9+rOZ35pMel5onzL6qhMWJxPqghlqgHKbaj4qdQlc9K0FqBeaZ5RidWICbAtj2Di3xb/yykqAJEjDQ1g==" />
+            <button class="btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:228142454,&quot;originating_url&quot;:&quot;https://github.com/MkTej/Applied-Data-Science-Capstone/blob/master/python_code.py&quot;,&quot;user_id&quot;:67207497}}" data-hydro-click-hmac="01dd1ea667474d5ac04a3a400e388873075f2abd9eb96cb95c85bb027e94efa5" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" type="submit" title="Fork your own copy of MkTej/Applied-Data-Science-Capstone to your account" aria-label="Fork your own copy of MkTej/Applied-Data-Science-Capstone to your account">              <svg class="octicon octicon-repo-forked" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z"></path></svg>
               Fork
 </button></form>
     <a href="/MkTej/Applied-Data-Science-Capstone/network/members" class="social-count"
@@ -990,9 +990,9 @@
   
 
 
-    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/MkTej/Applied-Data-Science-Capstone/blob/d726aef16db24c2780b07d93dcf92e17c2f2ce30/Capstone%20-%20The%20Battle%20of%20Neighborhoods%20-%20Part%201/README.md">Permalink</a>
+    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/MkTej/Applied-Data-Science-Capstone/blob/d726aef16db24c2780b07d93dcf92e17c2f2ce30/python_code.py">Permalink</a>
 
-    <!-- blob contrib key: blob_contributors:v22:ef7aa806388ceb568c4fbe7f15e03bb6 -->
+    <!-- blob contrib key: blob_contributors:v22:77a4dec897685f4b6ed8037443831b8b -->
     
 
     <div class="d-flex flex-items-center flex-shrink-0 pb-3 flex-wrap flex-justify-between flex-md-justify-start">
@@ -1006,7 +1006,7 @@
     <span class="dropdown-caret"></span>
   </summary>
 
-  <details-menu class="SelectMenu SelectMenu--hasFilter" src="/MkTej/Applied-Data-Science-Capstone/refs/master/Capstone%20-%20The%20Battle%20of%20Neighborhoods%20-%20Part%201/README.md?source_action=show&amp;source_controller=blob" preload>
+  <details-menu class="SelectMenu SelectMenu--hasFilter" src="/MkTej/Applied-Data-Science-Capstone/refs/master/python_code.py?source_action=show&amp;source_controller=blob" preload>
     <div class="SelectMenu-modal">
       <include-fragment class="SelectMenu-loading" aria-label="Menu is loading">
         <svg class="octicon octicon-octoface anim-pulse" height="32" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M14.7 5.34c.13-.32.55-1.59-.13-3.31 0 0-1.05-.33-3.44 1.3-1-.28-2.07-.32-3.13-.32s-2.13.04-3.13.32c-2.39-1.64-3.44-1.3-3.44-1.3-.68 1.72-.26 2.99-.13 3.31C.49 6.21 0 7.33 0 8.69 0 13.84 3.33 15 7.98 15S16 13.84 16 8.69c0-1.36-.49-2.48-1.3-3.35zM8 14.02c-3.3 0-5.98-.15-5.98-3.35 0-.76.38-1.48 1.02-2.07 1.07-.98 2.9-.46 4.96-.46 2.07 0 3.88-.52 4.96.46.65.59 1.02 1.3 1.02 2.07 0 3.19-2.68 3.35-5.98 3.35zM5.49 9.01c-.66 0-1.2.8-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.54-1.78-1.2-1.78zm5.02 0c-.66 0-1.2.79-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.53-1.78-1.2-1.78z"></path></svg>
@@ -1016,7 +1016,46 @@
 </details>
 
       <h2 id="blob-path" class="breadcrumb flex-auto min-width-0 text-normal mx-0 mx-md-3 width-full width-md-auto flex-order-1 flex-md-order-none mt-3 mt-md-0">
-        <span class="js-repo-root text-bold"><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="true" href="/MkTej/Applied-Data-Science-Capstone"><span>Applied-Data-Science-Capstone</span></a></span></span><span class="separator">/</span><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="true" href="/MkTej/Applied-Data-Science-Capstone/tree/master/Capstone%20-%20The%20Battle%20of%20Neighborhoods%20-%20Part%201"><span>Capstone - The Battle of Neighborhoods - Part 1</span></a></span><span class="separator">/</span><strong class="final-path">README.md</strong>
+        <span class="js-repo-root text-bold"><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="true" href="/MkTej/Applied-Data-Science-Capstone"><span>Applied-Data-Science-Capstone</span></a></span></span><span class="separator">/</span><strong class="final-path">python_code.py</strong>
+          <span class="separator">/</span><details class="details-reset details-overlay d-inline" id="jumpto-symbol-select-menu">
+  <summary class="btn-link link-gray css-truncate" aria-haspopup="true" data-hotkey="r" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.click_on_blob_definitions&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;click_on_blob_definitions&quot;,&quot;repository_id&quot;:228142454,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/MkTej/Applied-Data-Science-Capstone/blob/master/python_code.py&quot;,&quot;user_id&quot;:67207497}}" data-hydro-click-hmac="beb77382f5cb0c34cc6e8367285ac4c81e92267a8102ab83d01ab4c927ed38f1">
+      <svg class="octicon octicon-code" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4.72 3.22a.75.75 0 011.06 1.06L2.06 8l3.72 3.72a.75.75 0 11-1.06 1.06L.47 8.53a.75.75 0 010-1.06l4.25-4.25zm6.56 0a.75.75 0 10-1.06 1.06L13.94 8l-3.72 3.72a.75.75 0 101.06 1.06l4.25-4.25a.75.75 0 000-1.06l-4.25-4.25z"></path></svg>
+    <span data-menu-button>Jump to</span>
+    <span class="dropdown-caret"></span>
+  </summary>
+  <details-menu class="SelectMenu SelectMenu--hasFilter" role="menu">
+    <div class="SelectMenu-modal">
+      <header class="SelectMenu-header">
+        <span class="SelectMenu-title">Code definitions</span>
+        <button class="SelectMenu-closeButton" type="button" data-toggle-for="jumpto-symbol-select-menu">
+          <svg aria-label="Close menu" class="octicon octicon-x" viewBox="0 0 16 16" version="1.1" width="16" height="16" role="img"><path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path></svg>
+        </button>
+      </header>
+        <div class="SelectMenu-filter">
+          <input
+            class="SelectMenu-input form-control js-filterable-field"
+            id="jumpto-symbols-filter-field"
+            type="text"
+            autocomplete="off"
+            spellcheck="false"
+            autofocus
+            placeholder="Filter definitions"
+            aria-label="Filter definitions">
+        </div>
+      <div class="SelectMenu-list">
+        <div data-filterable-for="jumpto-symbols-filter-field" data-filterable-type="substring">
+        </div>
+      </div>
+      <footer class="SelectMenu-footer">
+        <div class="d-flex flex-justify-between">
+          Code navigation index up-to-date
+          <svg class="octicon octicon-dot-fill text-green" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
+        </div>
+      </footer>
+    </div>
+  </details-menu>
+</details>
+
       </h2>
         <div class="BtnGroup flex-self-end flex-shrink-0">
           <a href="/MkTej/Applied-Data-Science-Capstone/find/master"
@@ -1025,7 +1064,7 @@
                 data-hotkey="t">
             Find file
           </a>
-          <clipboard-copy value="Capstone - The Battle of Neighborhoods - Part 1/README.md" class="btn btn-sm BtnGroup-item">
+          <clipboard-copy value="python_code.py" class="btn btn-sm BtnGroup-item">
             Copy path
           </clipboard-copy>
         </div>
@@ -1034,7 +1073,7 @@
 
 
     <div class="Box d-flex flex-column flex-shrink-0 mb-3 Box--condensed">
-      <include-fragment src="/MkTej/Applied-Data-Science-Capstone/contributors/master/Capstone%20-%20The%20Battle%20of%20Neighborhoods%20-%20Part%201/README.md" class="commit-loader">
+      <include-fragment src="/MkTej/Applied-Data-Science-Capstone/contributors/master/python_code.py" class="commit-loader">
         <div class="Box-header Box-header--blue d-flex flex-items-center">
             Fetching contributors&hellip;
         </div>
@@ -1056,17 +1095,17 @@
 <div class="Box-header py-2 d-flex flex-column flex-shrink-0 flex-md-row flex-md-items-center">
   <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
 
-      5 lines (3 sloc)
+      1 lines (1 sloc)
       <span class="file-info-divider"></span>
-    436 Bytes
+    22 Bytes
   </div>
 
   <div class="d-flex py-1 py-md-0 flex-auto flex-order-1 flex-md-order-2 flex-sm-grow-0 flex-justify-between">
 
     <div class="BtnGroup">
-      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/MkTej/Applied-Data-Science-Capstone/raw/master/Capstone%20-%20The%20Battle%20of%20Neighborhoods%20-%20Part%201/README.md">Raw</a>
-        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/MkTej/Applied-Data-Science-Capstone/blame/master/Capstone%20-%20The%20Battle%20of%20Neighborhoods%20-%20Part%201/README.md">Blame</a>
-        <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/MkTej/Applied-Data-Science-Capstone/commits/master/Capstone%20-%20The%20Battle%20of%20Neighborhoods%20-%20Part%201/README.md">History</a>
+      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/MkTej/Applied-Data-Science-Capstone/raw/master/python_code.py">Raw</a>
+        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/MkTej/Applied-Data-Science-Capstone/blame/master/python_code.py">Blame</a>
+        <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/MkTej/Applied-Data-Science-Capstone/commits/master/python_code.py">History</a>
     </div>
 
 
@@ -1079,13 +1118,13 @@
               <svg class="octicon octicon-device-desktop" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.75 2.5h12.5a.25.25 0 01.25.25v7.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25v-7.5a.25.25 0 01.25-.25zM14.25 1H1.75A1.75 1.75 0 000 2.75v7.5C0 11.216.784 12 1.75 12h3.727c-.1 1.041-.52 1.872-1.292 2.757A.75.75 0 004.75 16h6.5a.75.75 0 00.565-1.243c-.772-.885-1.193-1.716-1.292-2.757h3.727A1.75 1.75 0 0016 10.25v-7.5A1.75 1.75 0 0014.25 1zM9.018 12H6.982a5.72 5.72 0 01-.765 2.5h3.566a5.72 5.72 0 01-.765-2.5z"></path></svg>
           </a>
 
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/MkTej/Applied-Data-Science-Capstone/edit/master/Capstone%20-%20The%20Battle%20of%20Neighborhoods%20-%20Part%201/README.md" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="TQtCc3NLBLXYFNuicP9plibcfqSCkKl/uwiO/nv7VGPiCp/s49ZelyMMXbYQvG2SZOsY0pAnQmJXLAuLezt/ZA==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/MkTej/Applied-Data-Science-Capstone/edit/master/python_code.py" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="vGhhDsdSAgiyPgYdNA5zJpJnkuEv8eNWnuXJ+n+FR7GhdpWI6ACcgCwQ2tL167W4o09KhIeVoCoBXJD3PEWSlA==" />
             <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
               aria-label="Fork this project and edit the file" data-hotkey="e" data-disable-with>
               <svg class="octicon octicon-pencil" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11.013 1.427a1.75 1.75 0 012.474 0l1.086 1.086a1.75 1.75 0 010 2.474l-8.61 8.61c-.21.21-.47.364-.756.445l-3.251.93a.75.75 0 01-.927-.928l.929-3.25a1.75 1.75 0 01.445-.758l8.61-8.61zm1.414 1.06a.25.25 0 00-.354 0L10.811 3.75l1.439 1.44 1.263-1.263a.25.25 0 000-.354l-1.086-1.086zM11.189 6.25L9.75 4.81l-6.286 6.287a.25.25 0 00-.064.108l-.558 1.953 1.953-.558a.249.249 0 00.108-.064l6.286-6.286z"></path></svg>
             </button>
 </form>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/MkTej/Applied-Data-Science-Capstone/delete/master/Capstone%20-%20The%20Battle%20of%20Neighborhoods%20-%20Part%201/README.md" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="9cgo43dzGrM2iAq3RVZBhta3ZefgWNeSjwN5yiTbb4YIoTFyYvDt5OHpZZP05wL3P7SgMPyUvhOkhuAu/OYXBQ==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/MkTej/Applied-Data-Science-Capstone/delete/master/python_code.py" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="s1UFYzpuwnebtYPyDU6t9OQEXf+vTfBsORr5dNf7r/91vmqiNLRVUXEz6uLgS9J6pa/9PYhAySpeGxXdSL9LMQ==" />
             <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
               aria-label="Fork this project and delete the file" data-disable-with>
               <svg class="octicon octicon-trashcan" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6.5 1.75a.25.25 0 01.25-.25h2.5a.25.25 0 01.25.25V3h-3V1.75zm4.5 0V3h2.25a.75.75 0 010 1.5H2.75a.75.75 0 010-1.5H5V1.75C5 .784 5.784 0 6.75 0h2.5C10.216 0 11 .784 11 1.75zM4.496 6.675a.75.75 0 10-1.492.15l.66 6.6A1.75 1.75 0 005.405 15h5.19c.9 0 1.652-.681 1.741-1.576l.66-6.6a.75.75 0 00-1.492-.149l-.66 6.6a.25.25 0 01-.249.225h-5.19a.25.25 0 01-.249-.225l-.66-6.6z"></path></svg>
@@ -1097,11 +1136,38 @@
 
 
       
-  <div id="readme" class="Box-body readme blob js-code-block-container p-5 p-xl-6">
-    <article class="markdown-body entry-content container-lg" itemprop="text"><h1><a id="user-content-coursera_capstone_the_battle_of_neighborhoods" class="anchor" aria-hidden="true" href="#coursera_capstone_the_battle_of_neighborhoods"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Coursera_Capstone_The_Battle_Of_Neighborhoods</h1>
-<p>Coursera Capstone - Applied Data Science Capstone - The Battle Of Neighborhoods(Part1)</p>
-<p>This is a submission of Peer Graded Assignment - Capstone Project The Battle of Neighborhoods. The solution is for the Introduction/Business Problem and the Data Section. Please refer and review the respective PDF documents Introduction_BusinessProblem and Data_Section attached in this repository.</p>
-</article>
+
+  <div itemprop="text" class="Box-body p-0 blob-wrapper data type-python ">
+      
+<table class="highlight tab-size js-file-line-container" data-tab-size="8" data-paste-markdown-skip>
+      <tr>
+        <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="LC1" class="blob-code blob-code-inner js-file-line"><span class=pl-en>print</span>(<span class=pl-s>&quot;Hello World!&quot;</span>)</td>
+      </tr>
+</table>
+
+  <details class="details-reset details-overlay BlobToolbar position-absolute js-file-line-actions dropdown d-none" aria-hidden="true">
+    <summary class="btn-octicon ml-0 px-2 p-0 bg-white border border-gray-dark rounded-1" aria-label="Inline file action toolbar">
+      <svg class="octicon octicon-kebab-horizontal" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M8 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM1.5 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm13 0a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path></svg>
+    </summary>
+    <details-menu>
+      <ul class="BlobToolbar-dropdown dropdown-menu dropdown-menu-se mt-2" style="width:185px">
+        <li>
+          <clipboard-copy role="menuitem" class="dropdown-item" id="js-copy-lines" style="cursor:pointer;">
+            Copy lines
+          </clipboard-copy>
+        </li>
+        <li>
+          <clipboard-copy role="menuitem" class="dropdown-item" id="js-copy-permalink" style="cursor:pointer;">
+            Copy permalink
+          </clipboard-copy>
+        </li>
+        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/MkTej/Applied-Data-Science-Capstone/blame/d726aef16db24c2780b07d93dcf92e17c2f2ce30/python_code.py">View git blame</a></li>
+          <li><a class="dropdown-item" id="js-new-issue" role="menuitem" href="/MkTej/Applied-Data-Science-Capstone/issues/new">Reference in new issue</a></li>
+      </ul>
+    </details-menu>
+  </details>
+
   </div>
 
     </div>
@@ -1122,10 +1188,10 @@
      hidden
      data-tagsearch-url="/MkTej/Applied-Data-Science-Capstone/find-symbols"
      data-tagsearch-ref="master"
-     data-tagsearch-path="Capstone - The Battle of Neighborhoods - Part 1/README.md"
-     data-tagsearch-lang="Markdown"
-     data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.click_on_symbol&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;click_on_symbol&quot;,&quot;repository_id&quot;:228142454,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;Markdown&quot;,&quot;originating_url&quot;:&quot;https://github.com/MkTej/Applied-Data-Science-Capstone/blob/master/Capstone%20-%20The%20Battle%20of%20Neighborhoods%20-%20Part%201/README.md&quot;,&quot;user_id&quot;:67207497}}"
-     data-hydro-click-hmac="048b8966b0a7753dd7f78f82fcf7b0bf2dedbdb85578f6b8c9a8efcb97f2674e">
+     data-tagsearch-path="python_code.py"
+     data-tagsearch-lang="Python"
+     data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.click_on_symbol&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;click_on_symbol&quot;,&quot;repository_id&quot;:228142454,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/MkTej/Applied-Data-Science-Capstone/blob/master/python_code.py&quot;,&quot;user_id&quot;:67207497}}"
+     data-hydro-click-hmac="32495a5aeb29bbc71c02fa626e0f5cca05e4616ee1260583e9078396f944d90b">
   <div class="Popover-message Popover-message--large Popover-message--top-left TagsearchPopover mt-1 mb-4 mx-auto Box box-shadow-large">
     <div class="TagsearchPopover-content js-tagsearch-popover-content overflow-auto" style="will-change:transform;">
     </div>
